@@ -35,8 +35,8 @@ public class ExcelUtil {
 		return objects;
 	}
 	
-	/*
-	 * public static void main(String[] args) throws BiffException, IOException {
-	 * ExcelUtil.read("Enrolments.xls", "Seekers"); }
-	 */
+	
+	  public static void main(String[] args) throws BiffException, IOException {
+	  ExcelUtil.read("Enrolments.xls", "RegisteringData"); }
+	 
 }
